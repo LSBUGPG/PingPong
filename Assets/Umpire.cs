@@ -13,7 +13,7 @@ public class Umpire : MonoBehaviour {
 		shots = 2;
 		tiebreak = false;
 		turn = Random.Range (0, players.Length);
-		PlayerServe ();
+		Invoke ("PlayerServe", 1.0f);
 	}
 
 	void PlayerServe() {
