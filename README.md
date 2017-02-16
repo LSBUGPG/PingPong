@@ -2,6 +2,8 @@
 
 This project was created initially from the following rough specifications. Several changes were needed to model additional features such as players getting 2 serves each before swapping and the tiebreak and foul rules. I also create a couple of test scenes to help catch bugs and to exercise difficult to trigger situations.
 
+Keys are A and Z for the left hand player and Up and Down for the right hand player.
+
 ## Object types:
 * Player paddle
 * Ball
