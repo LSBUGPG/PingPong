@@ -41,7 +41,7 @@ To help with testing I've created a couple of test scenes:
 
 ### CollisionTest
 
-This test scene sets up the ball to bounce against a boundary wall. The correct rigidbody collision detection system needs to be selected on the ball to prevent it from punching straight through the wall. Try changing the ball collision system to Discrete instead on Continuous Dynamic to see what happens.
+This test scene sets up the ball to bounce against a boundary wall. The correct rigidbody collision detection system needs to be selected on the ball to prevent it from punching straight through the wall. Try changing the ball collision system to Discrete instead of Continuous Dynamic to see what happens.
 
 ### FoulTest
 
