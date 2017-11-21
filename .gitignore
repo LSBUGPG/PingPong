@@ -57,6 +57,7 @@ sysinfo.txt
 Network Trash Folder
 Temporary Items
 .apdisk
+*.app
 
 # Windows
 # =========================
