@@ -30,7 +30,7 @@ It accepts the message Service, spawns the assigned object and aims it at the as
 ### Umpire behaviour
 On start it sends the message Service to a randomly chosen player from it's assigned array of player objects. It accepts the message Continue to swap the currently serving player and send another Service message.
 
-###ScoringZone behaviour
+### ScoringZone behaviour
 When a ball object enters the attached box trigger, it is destroyed and sends a ScorePoint message to the assigned player's score object.
 
 ## Testing
@@ -41,7 +41,7 @@ To help with testing I've created a couple of test scenes:
 
 ### CollisionTest
 
-This test scene sets up the ball to bounce against a boundary wall. The correct rigidbody collision detection system needs to be selected on the ball to prevent it from punching straight through the wall. Try changing the ball collision system to Discrete instead on Continuous Dynamic to see what happens.
+This test scene sets up the ball to bounce against a boundary wall. The correct rigidbody collision detection system needs to be selected on the ball to prevent it from punching straight through the wall. Try changing the ball collision system to Discrete instead of Continuous Dynamic to see what happens.
 
 ### FoulTest
 
