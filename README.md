@@ -30,7 +30,7 @@ It accepts the message Service, spawns the assigned object and aims it at the as
 ### Umpire behaviour
 On start it sends the message Service to a randomly chosen player from it's assigned array of player objects. It accepts the message Continue to swap the currently serving player and send another Service message.
 
-###ScoringZone behaviour
+### ScoringZone behaviour
 When a ball object enters the attached box trigger, it is destroyed and sends a ScorePoint message to the assigned player's score object.
 
 ## Testing
